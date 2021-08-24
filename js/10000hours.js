@@ -19,11 +19,11 @@ function calculator(){
         fieldValue.focus();
         return false;
     } else if(timeValue.value == ""){
-        alert('입려되지 않았습니다.');
+        alert('입력해라 바보야!!!.');
         timeValue.focus();
         return false;
     } else if(timeValue_int > 24){
-        alert('잘못된 값입니다. 24이하의 값을 입력해 주세요.');
+        alert('하루에 24시간이다 바보야!!');
         return false;
     }
     result.style.display = 'none';
