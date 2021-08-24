@@ -15,7 +15,7 @@ function calculator(){
     const timeResult = document.querySelector('.time_result');
 
     if(fieldValue.value == ""){
-        alert('입력되지 않았습니다.');
+        alert('입력하라고 바보야!!');
         fieldValue.focus();
         return false;
     } else if(timeValue.value == ""){
